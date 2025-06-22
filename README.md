@@ -14,14 +14,14 @@
 - [eo] Platformneŭtrala ilo por konverti dokumentojn de Text602
 
 ## Popis projektu
-T602Konvertilo je multiplatformní aplikace sloužící k převodu dokumentů
+T602Konvertilo je multiplatformní nástroj sloužící k převodu dokumentů
 z obsolentního proprietárního formátu editoru Text602 (verze 3.00 z roku
 1992) do formátu JSON AST *(Abstract Syntax Tree)* pro univerzální
 konverzní nástroj Pandoc.
 
 Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, který T602 nativně
 nepodporuje, a parsuje Text602 dokument do interního formátu Pandoc.
-Výstupní soubor ast.json posléze může být použit přímo jako vstup Pandocu.
+Výstupní soubor (ast).json posléze slouží jednoduše jako vstup pro Pandoc.
 Např.:  
 `pandoc --from json --to html < vstup-ast.json > vystup.html`
 
@@ -57,7 +57,7 @@ Více informací najdete na [GitHubu](https://github.com/ma-ta/t602konvertilo).
 ## Autor
 Copyright (c) 2025&nbsp;&nbsp;Martin TÁBOR
 
-  ## Licence
-  Freeware & Open source  
-  GNU General Public License v3.0 or later (SPDX: GPL-3.0-or-later)  
-  https://spdx.org/licenses/GPL-3.0-or-later.html
+## Licence
+Freeware & Open source  
+GNU General Public License v3.0 or later (SPDX: GPL-3.0-or-later)  
+https://spdx.org/licenses/GPL-3.0-or-later.html
