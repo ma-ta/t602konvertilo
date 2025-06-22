@@ -19,9 +19,9 @@ z obsolentního proprietárního formátu editoru Text602 (verze 3.00 z roku
 1992) do formátu JSON AST *(Abstract Syntax Tree)* pro univerzální
 konverzní nástroj Pandoc.
 
-Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, který T602 nativně
-nepodporuje, a parsuje Text602 dokument do interního formátu Pandoc.
-Výstupní soubor (ast).json posléze slouží jednoduše jako vstup pro Pandoc.
+Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž T602 nativně
+nepodporuje, a parsuje Text602 dokument přímo do interního formátu Pandocu.
+Výstupní soubor (ast).json posléze slouží jednoduše jako vstup pro konverzi.
 Např.:  
 `pandoc --from json --to html < vstup-ast.json > vystup.html`
 
