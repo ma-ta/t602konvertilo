@@ -1,4 +1,6 @@
-# T602Konvertilo
+/**
+
+  @mainpage  Úvod
 
   ```text
     _____ __    ___ ____  _  __                         _   _ _
@@ -61,3 +63,5 @@
   Freeware & Open source  
   GNU General Public License v3.0 or later (SPDX: GPL-3.0-or-later)  
   https://spdx.org/licenses/GPL-3.0-or-later.html
+
+ */
