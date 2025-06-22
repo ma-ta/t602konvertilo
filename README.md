@@ -1,12 +1,4 @@
-![Logo T602Konvertilo](res/logo/logo128.png)
-
-```text
-  _____ __    ___ ____  _  __                         _   _ _
-|_   _/ /_  / _ \___ \| |/ /___  _ ____   _____ _ __| |_(_) | ___
-  | || '_ \| | | |__) | ' // _ \| '_ \ \ / / _ \ '__| __| | |/ _ \
-  | || (_) | |_| / __/| . \ (_) | | | \ V /  __/ |  | |_| | | (_) |
-  |_| \___/ \___/_____|_|\_\___/|_| |_|\_/ \___|_|   \__|_|_|\___/
-```
+![Logo T602Konvertilo](res/github.png)
 
 - **[cs] Multiplatformní nástroj pro konverzi dokumentů Text602**
 - [sk] Multiplatformový nástroj na konverziu dokumentov Text602
