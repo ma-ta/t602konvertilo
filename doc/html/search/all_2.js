@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['licence_0',['Licence',['../index.html#autotoc_md4',1,'']]]
+  ['kódy_0',['Zdrojové kódy',['../index.html#autotoc_md3',1,'']]]
 ];

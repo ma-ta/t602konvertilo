@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nástroje_3a_0',['Workflow použití nástroje:',['../index.html#autotoc_md1',1,'']]]
+  ['licence_0',['Licence',['../index.html#autotoc_md5',1,'']]]
 ];

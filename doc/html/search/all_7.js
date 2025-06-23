@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zdrojové_20kódy_0',['Zdrojové kódy',['../index.html#autotoc_md2',1,'']]]
+  ['výčet_20funkcí_0',['Výčet funkcí',['../index.html#autotoc_md2',1,'']]]
 ];
