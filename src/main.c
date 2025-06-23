@@ -14,6 +14,8 @@
 
 int main(int argc, char *argv[])
 {
+  printf("Hello from T602Konvertilo!\n");
+  printf("(%s)\n", argv[0]);
 
   return EXIT_SUCCESS;
 }
