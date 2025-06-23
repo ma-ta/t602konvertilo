@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>T602Konvertilo: Main Page</title>
+<title>T602Konvertilo: Úvod</title>
 <link rel="icon" href="logo512.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -90,10 +90,78 @@ $(function(){initNavTree('index.html','',''); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">T602Konvertilo Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Úvod </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><div class="fragment"><div class="line">  _____ __    ___ ____  _  __                         _   _ _</div>
+<div class="line">|_   _/ /_  / _ \___ \| |/ /___  _ ____   _____ _ __| |_(_) | ___</div>
+<div class="line">  | || &#39;_ \| | | |__) | &#39; // _ \| &#39;_ \ \ / / _ \ &#39;__| __| | |/ _ \</div>
+<div class="line">  | || (_) | |_| / __/| . \ (_) | | | \ V /  __/ |  | |_| | | (_) |</div>
+<div class="line">  |_| \___/ \___/_____|_|\_\___/|_| |_|\_/ \___|_|   \__|_|_|\___/</div>
+</div><!-- fragment --><ul>
+<li><b>[cs] Multiplatformní nástroj pro konverzi dokumentů Text602</b></li>
+<li>[sk] Multiplatformový nástroj na konverziu dokumentov Text602</li>
+<li>[en] A multiplatform tool for converting Text602 documents</li>
+<li>[eo] Platformneŭtrala ilo por konverti dokumentojn de Text602</li>
+</ul>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md0"></a>
+Popis projektu</h2>
+<p>T602Konvertilo je multiplatformní nástroj sloužící k převodu dokumentů z obsolentního proprietárního formátu editoru <b>Text602 (verze 3.00 z roku 1992)</b> do formátu JSON AST <em>(Abstract Syntax Tree)</em> pro univerzální konverzní nástroj Pandoc.</p>
+<p>Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž T602 nativně nepodporuje, a parsuje Text602 dokument přímo do interního formátu AST. Výstupní soubor (ast).json posléze slouží jednoduše jako vstup ke konverzi. Např.: <br  />
+ <span class="tt">pandoc --from json --to html &lt; vstup-ast.json &gt; vystup.html</span></p>
+<h3 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
+Workflow použití nástroje:</h3>
+<div class="fragment"><div class="line"> originální formát   ⟶ Text602 dokument</div>
+<div class="line">     (doc.602)</div>
+<div class="line">         ↓</div>
+<div class="line">+-----------------+</div>
+<div class="line">|     (reader)    |  ⟶ T602Konvertilo</div>
+<div class="line">+-----------------+</div>
+<div class="line">         ↓</div>
+<div class="line">     mezistupeň</div>
+<div class="line">   (doc-ast.json)    ⟶ Pandoc AST jako JSON</div>
+<div class="line">         ↓</div>
+<div class="line">+-----------------+</div>
+<div class="line">|       AST       |</div>
+<div class="line">|        ↓        |</div>
+<div class="line">|     (filter)    |</div>
+<div class="line">|        ↓        |  ⟶ interní workflow Pandoc</div>
+<div class="line">|       AST       |    (rámcově)</div>
+<div class="line">|        ↓        |</div>
+<div class="line">|     (writer)    |</div>
+<div class="line">+-----------------+</div>
+<div class="line">         ↓</div>
+<div class="line">   cílový formát     ⟶ libovolný formát podporovaný nástrojem Pandoc</div>
+<div class="line">      (doc.*)</div>
+</div><!-- fragment --><h3 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
+Výčet funkcí</h3>
+<ul>
+<li>převod (export) dokumentu Text602 <em>(výstup v UTF-8)</em>:<ul>
+<li><span class="tt">*.602</span> ⟶ <span class="tt">(pandoc-ast).json</span></li>
+<li><span class="tt">*.602</span> ⟶ <span class="tt">*.txt</span></li>
+</ul>
+</li>
+<li>změna kódování původního dokumentu Text602:<ul>
+<li>KEYBCS2</li>
+<li>LATIN2 (CP852)</li>
+<li>KOI8ČS</li>
+</ul>
+</li>
+<li>zobrazení metadat dokumentu Text602</li>
+</ul>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md3"></a>
+Zdrojové kódy</h2>
+<p>Více informací najdete na <a href="https://github.com/ma-ta/t602konvertilo">GitHubu</a>.</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
+Autor</h2>
+<p>Copyright (c) 2025&#160;&#160;Martin TÁBOR</p>
+<h2 class="doxsection"><a class="anchor" id="autotoc_md5"></a>
+Licence</h2>
+<p>Freeware &amp; Open source <br  />
+ GNU General Public License v3.0 or later (SPDX: GPL-3.0-or-later) <br  />
+ <a href="https://spdx.org/licenses/GPL-3.0-or-later.html">https://spdx.org/licenses/GPL-3.0-or-later.html</a> </p>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->
