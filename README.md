@@ -47,7 +47,7 @@ Např.:
 
 ### Výčet funkcí
 
-- převod (export) dokumentu Text602 (UTF-8):
+- převod (export) dokumentu Text602 *(výstup v UTF-8)*:
   - `*.602` ⟶ `(pandoc-ast).json`
   - `*.602` ⟶ `*.txt`
 - změna kódování původního dokumentu Text602:
