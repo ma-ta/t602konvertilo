@@ -27,7 +27,11 @@ var NAVTREE =
   [ "T602Konvertilo", "index.html", [
     [ "Úvod", "index.html", null ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "Globals", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Functions", "globals_func.html", null ]
+      ] ]
     ] ]
   ] ]
 ];

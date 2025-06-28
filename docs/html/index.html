@@ -107,8 +107,9 @@ $(function(){initNavTree('index.html','',''); });
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md0"></a>
 Popis projektu</h2>
-<p>T602Konvertilo je multiplatformní nástroj sloužící k převodu dokumentů z obsolentního proprietárního formátu editoru <b>Text602 (verze 3.00 z roku 1992)</b> do formátu JSON AST <em>(Abstract Syntax Tree)</em> pro univerzální konverzní nástroj Pandoc.</p>
-<p>Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž T602 nativně nepodporuje, a parsuje Text602 dokument přímo do interního formátu AST. Výstupní soubor (ast).json posléze slouží jednoduše jako vstup ke konverzi. Např.: <br  />
+<p>T602Konvertilo je multiplatformní nástroj sloužící k převodu dokumentů z obsolentního proprietárního formátu editoru <b>Text602 (verze 3.00 z roku 1992)</b> do formátu JSON AST <em>(Abstract Syntax Tree)</em> pro univerzální konverzní nástroj <a href="https://pandoc.org">Pandoc</a>.</p>
+<p>Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž dokumenty T602 nativně nepodporuje, a parsuje dokument <span class="tt">Text.602</span> přímo do jeho interního formátu AST. <br  />
+ Výstupní soubor (ast).json posléze slouží jednoduše jako vstup ke konverzi do prakticky libovolného formátu. Např.: <br  />
  <span class="tt">pandoc --from json --to html &lt; vstup-ast.json &gt; vystup.html</span></p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
 Workflow použití nástroje:</h3>
