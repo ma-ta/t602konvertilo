@@ -25,7 +25,7 @@
   Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž dokumenty
   T602 nativně nepodporuje, a parsuje dokument &bdquo;Text.602&ldquo; přímo do
   jeho interního formátu AST.  
-  Výstupní soubor &bdquo;pandoc-ast.jsonldquo; posléze slouží jednoduše
+  Výstupní soubor &bdquo;pandoc-ast.json&ldquo; posléze slouží jednoduše
   jako vstup ke konverzi do prakticky libovolného formátu.  
   Např.:  
   `pandoc --from json --to html < vstup-ast.json > vystup.html`
