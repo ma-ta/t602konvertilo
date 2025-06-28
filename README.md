@@ -1,8 +1,8 @@
 ![Logo T602Konvertilo](res/github.png)
 
+- [en] A multiplatform tool for converting Text602 documents
 - **[cs] Multiplatformní nástroj pro konverzi dokumentů Text602**
 - [sk] Multiplatformový nástroj na konverziu dokumentov Text602
-- [en] A multiplatform tool for converting Text602 documents
 - [eo] Platformneŭtrala ilo por konverti dokumentojn de Text602
 
 ## Popis projektu
@@ -13,10 +13,10 @@ z obsolentního proprietárního formátu editoru **Text602 (verze 3.00 z roku
 konverzní nástroj [Pandoc](https://pandoc.org).
 
 Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž dokumenty
-T602 nativně nepodporuje, a parsuje dokument `Text.602` přímo do jeho
-interního formátu AST.  
+T602 nativně nepodporuje, a parsuje dokument &bdquo;Text.602&ldquo; přímo do
+jeho interního formátu AST.  
 Výstupní soubor (ast).json posléze slouží jednoduše jako vstup ke konverzi
-do prakticky libovolného formátu.
+do prakticky libovolného formátu.  
 Např.:  
 `pandoc --from json --to html < vstup-ast.json > vystup.html`
 

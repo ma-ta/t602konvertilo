@@ -100,16 +100,17 @@ $(function(){initNavTree('index.html','',''); });
 <div class="line">  | || (_) | |_| / __/| . \ (_) | | | \ V /  __/ |  | |_| | | (_) |</div>
 <div class="line">  |_| \___/ \___/_____|_|\_\___/|_| |_|\_/ \___|_|   \__|_|_|\___/</div>
 </div><!-- fragment --><ul>
+<li>[en] A multiplatform tool for converting Text602 documents</li>
 <li><b>[cs] Multiplatformní nástroj pro konverzi dokumentů Text602</b></li>
 <li>[sk] Multiplatformový nástroj na konverziu dokumentov Text602</li>
-<li>[en] A multiplatform tool for converting Text602 documents</li>
 <li>[eo] Platformneŭtrala ilo por konverti dokumentojn de Text602</li>
 </ul>
 <h2 class="doxsection"><a class="anchor" id="autotoc_md0"></a>
 Popis projektu</h2>
 <p>T602Konvertilo je multiplatformní nástroj sloužící k převodu dokumentů z obsolentního proprietárního formátu editoru <b>Text602 (verze 3.00 z roku 1992)</b> do formátu JSON AST <em>(Abstract Syntax Tree)</em> pro univerzální konverzní nástroj <a href="https://pandoc.org">Pandoc</a>.</p>
-<p>Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž dokumenty T602 nativně nepodporuje, a parsuje dokument <span class="tt">Text.602</span> přímo do jeho interního formátu AST. <br  />
- Výstupní soubor (ast).json posléze slouží jednoduše jako vstup ke konverzi do prakticky libovolného formátu. Např.: <br  />
+<p>Nahrazuje tedy práci modulu reader (čtečky) v Pandocu, jenž dokumenty T602 nativně nepodporuje, a parsuje dokument &bdquo;Text.602&ldquo; přímo do jeho interního formátu AST. <br  />
+ Výstupní soubor (ast).json posléze slouží jednoduše jako vstup ke konverzi do prakticky libovolného formátu. <br  />
+ Např.: <br  />
  <span class="tt">pandoc --from json --to html &lt; vstup-ast.json &gt; vystup.html</span></p>
 <h3 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
 Workflow použití nástroje:</h3>
