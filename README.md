@@ -1,4 +1,4 @@
-🚧&nbsp;UNDER CONSTRUCTION&nbsp;🚧
+*🚧&nbsp;UNDER CONSTRUCTION&nbsp;🚧*
 
 ![Logo T602Konvertilo](res/github.png)
 
