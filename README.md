@@ -1,3 +1,5 @@
+🚧&nbsp;UNDER CONSTRUCTION&nbsp;🚧
+
 ![Logo T602Konvertilo](res/github.png)
 
 - [en] A multiplatform tool for converting Text602 documents
